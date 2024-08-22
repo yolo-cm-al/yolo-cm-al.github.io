@@ -18,4 +18,13 @@
 <p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>ospf协议</title>
+    <url>/2024/08/22/ospf%E5%8D%8F%E8%AE%AE/</url>
+    <content><![CDATA[<p>路由器根据路由表转发数据包，路由表项可通过手动配置和动态路由协议生成。<br>静态路由比动态路由使用更少的带宽，并且不占用CPU资源来计算和分析路由更新。当<br>网络结构比较简单时，只需配置静态路由就可以使网络正常工作。但是当网络发生故障<br>或者拓扑发生变化后，静态路由不会自动更新，必须手动重新配置。<br>相比较于静态路由，动态路由协议具有更强的可扩展性，具备更强的应变能力。<br>OSPF（Open Shortest Path First，开放式最短路径优先）具有扩展性强，收敛速度快等<br>特点，作为优秀的内部网关协议被广泛使用。<br>本课程主要介绍OSPF的基本概念、OSPF邻接关系的建立、以及OSPF的基本配置。</p>
+]]></content>
+      <tags>
+        <tag>网络协议</tag>
+      </tags>
+  </entry>
 </search>
